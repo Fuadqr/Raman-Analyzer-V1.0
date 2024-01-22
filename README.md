@@ -40,7 +40,7 @@ The code includes a peak-picking algorithm to identify local maxima in the signa
 The code provides an optional plotting feature for data visualization.
 
 ## 5. Determine the Type of an Unknown Polymer
-The code enables users to determine the type of an unknown polymer by comparing the Raman shift values. Users can specify:
+The code enables users to determine the type of an unknown polymer by comparing the peaks values. Users can specify:
    - The absolute difference between the peaks of the unknown polymer and the values in a polymer library.
    - The percentage of closeness or similarity, which can be highlighted based on this difference.
 
