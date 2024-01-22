@@ -1,2 +1,2 @@
-#Ensure your data matches the format of the CSV files mentioned above. 
-#If your data is in not CSV, you have two options: convert it to CSV or modify the code segment that handles CSV reading to accommodate your format, whichever approach is more convenient for you.
+Ensure your data matches the format of the CSV files mentioned above. 
+If your data is in not CSV, you have two options: convert it to CSV or modify the code segment that handles CSV reading to accommodate your format, whichever approach is more convenient for you.
