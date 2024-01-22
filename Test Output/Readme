@@ -1,1 +1,4 @@
-Successfully running the code with the test data and default parameters for baseline removal, smoothing, peak picking, and threshold values specified in the notebooks will yield this output (Excel file)
+Successfully running the code with the test data and default parameters for baseline removal, smoothing, peak picking, and threshold values specified in the Notebooks:
+-RA_With_Modules.ipynb
+-RA_Without_Modules_Step_By_Step.ipynb 
+will yield this output (Excel file)
