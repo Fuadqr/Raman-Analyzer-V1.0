@@ -1,5 +1,4 @@
 # Raman-Analyzer-V1.0
-This script offers comprehensive Raman spectroscopy analysis with baseline correction, smoothing, peak detection, visualization, and polymer identification, providing flexible, detailed options for users.
 # Code Overview
 
 The new Python code provides a comprehensive set of functionalities for Raman spectroscopy data analysis:
