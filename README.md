@@ -1,7 +1,8 @@
 # Raman-Analyzer-V1.0
 # Code Overview
-(/ReadmeIMG/Before.png)
-(/ReadmeIMG/After.png)
+![Before Image](/ReadmeIMG/Before.png)
+![After Image](/ReadmeIMG/After.png)
+
 
 The new Python code provides a comprehensive set of functionalities for Raman spectroscopy data analysis:
 
