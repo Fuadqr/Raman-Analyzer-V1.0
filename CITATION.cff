@@ -5,6 +5,7 @@ authors:
   given-names: "Alqrinawi"
 - family-names: "Kelleher"
   given-names: "Liam"
+  orcid: "https://orcid.org/0000-0001-6392-8875"
 title: "Raman Analyzer"
 version: 1.0.0
 date-released: 2024-01-15
