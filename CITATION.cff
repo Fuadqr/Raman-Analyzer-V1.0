@@ -3,9 +3,18 @@ message: "If you use this code, please cite it as below."
 authors:
 - family-names: "Alqrinawi"
   given-names: "Fuad"
+  orcid: https://orcid.org/0009-0001-2847-0560
 - family-names: "Kelleher"
   given-names: "Liam"
   orcid: "https://orcid.org/0000-0001-6392-8875"
+- family-names: "Haverson"
+  given-names: "Lee"
+- family-names: "Schneidewind"
+  given-names: "Uwe"
+  orcid: "https://orcid.org/0000-0002-4523-7429"
+- family-names: "Krause"
+  given-names: "Stefan"
+  orcid: "https://orcid.org/0000-0003-2521-2248"  
 title: "Raman Analyzer"
 version: 1.0.0
 date-released: 2024-01-15
