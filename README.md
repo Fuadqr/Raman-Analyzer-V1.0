@@ -54,8 +54,6 @@ This Python code offers a versatile toolbox for Raman spectroscopy data analysis
 - [`pandas`](https://pypi.org/project/pandas/): Import as `pd`. Usually installed with `pip install pandas`.
 - [`matplotlib`](https://pypi.org/project/matplotlib/): Specifically, `matplotlib.pyplot`, import as `plt`. Usually installed with `pip install matplotlib`.
 - [`scipy`](https://pypi.org/project/scipy/): Includes `sparse`, `sparse.linalg` (as `spsolve`), and `signal` (as `savgol_filter`, `find_peaks`). Usually installed with `pip install scipy`.
-- [`ipywidgets`](https://pypi.org/project/ipywidgets/): Import as `widgets`. Usually installed with `pip install ipywidgets`.
-- [`IPython`](https://pypi.org/project/ipython/): Specifically, `IPython.display`, import as `display`. Usually installed with `pip install ipython`.
 - [`BaselineRemoval`](https://pypi.org/project/BaselineRemoval/): For baseline removal algorithms. Usually installed with `pip install BaselineRemoval`.
 - [`openpyxl`](https://pypi.org/project/openpyxl/): Import as `Workbook`, `NamedStyle`, and use `utils.dataframe` (as `dataframe_to_rows`). Usually installed with `pip install openpyxl`.
 - [`xlsxwriter`](https://pypi.org/project/XlsxWriter/): For writing files in the XLSX file format. Usually installed with `pip install XlsxWriter`.
