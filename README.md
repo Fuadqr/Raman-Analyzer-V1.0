@@ -12,9 +12,13 @@ To account for variability in Raman signal quality and fluorescence interference
 Four baseline correction methods are implemented, allowing users to select the most suitable approach for their dataset:
 
 -Asymmetric Least Squares (ALS) Based on Eilers & Boelens (2005).
+
 -BaselineRemoval Package by Md Azimul Haque (2022), implementing:
+
    ModPoly – Modified multi-polynomial fitting 
+   
    IModPoly – Improved ModPoly 
+   
    ZhangFit – Adaptive iteratively reweighted penalized least squares 
 
 
@@ -23,13 +27,16 @@ Four baseline correction methods are implemented, allowing users to select the m
 Noise reduction and signal-to-noise ratio (SNR) enhancement are performed using the Savitzky–Golay filter (SciPy implementation). Users can define:
 
 -Smoothing window length (in cm⁻¹)
+
 -Polynomial order
+
 -This step is essential for improving peak detection and correlation accuracy, particularly for low-intensity or coloured particles.
 
 
 ## 2. Spectral Normalization and Exclusion Ranges
 
 -After pre-processing, spectra are min–max normalized over a user-defined spectral range (typically 800–1800 cm⁻¹, the MPs fingerprint region).
+
 -Optional exclusion ranges can be specified to remove Instrumental artefacts or Fluorescence-related features (e.g. Nile Red interference around 1488 cm⁻¹)
 
 
@@ -40,14 +47,19 @@ Polymer identification is performed using a combined similarity scores:
 **a. Peak-Based Matching**
 
 -Local maxima are detected using scipy.signal.find_peaks
+
 -A user-defined number of the most prominent peaks is selected
+
 -Peak positions are matched against a reference library using a configurable tolerance (typically ±10 cm⁻¹)
+
 -A Peak Matching Score quantifies the fraction of characteristic peaks shared between unknown and reference spectra
 
 **b. Full-Spectrum Correlation**
 
 -Normalized spectra are interpolated onto a common Raman shift grid
+
 -Pearson correlation coefficients are computed across the full spectral range
+
 -Correlation values are scaled to a 0–100 Correlation Score (CS)
 
 **c. Combined Similarity Score**
@@ -57,21 +69,28 @@ The final Hit Quality Index (HQI) is computed as a weighted combination of PMS a
 ## 4. Reference Spectral Library
 
 -Raman Analyzer includes a reference library of 254 Raman spectra, consisting of: In-house curated spectra and another Open-source libraries (SLoPP and SLoPP-E)
+
 -The library covers 14 polymer types and common non-polymer classes, supporting both pristine and environmentally relevant microplastic samples.
 
 
 ## 5. Batch Processing and Output
 
 -Supports CSV, TXT, and Excel spectral input formats
+
 -Enables automated batch analysis of large spectral datasets using consistent parameter settings
+
 -Outputs results in structured spreadsheet formats for rapid interpretation and reporting
+
 -Optional plotting functionality for visual inspection of spectras, detected peaks, and matching results
 
 ## 6. Graphical User Interface (GUI)
 
 A Windows-based GUI is provided to make Raman Analyzer accessible to users without programming experience. The GUI supports:
+
 -Parameter configuration
+
 -Batch processing
+
 -Automated result export
 
 After downloading the GUI from the GitHub repository (RamanAnalyzer_v1.0.exe) 
