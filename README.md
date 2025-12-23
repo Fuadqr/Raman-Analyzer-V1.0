@@ -96,7 +96,7 @@ A Windows-based GUI is provided to make Raman Analyzer accessible to users witho
 
 -Automated result export
 
-After downloading the GUI from the GitHub repository (RamanAnalyzer_v1.0.exe) 
+After downloading the GUI from the [Raman Analyzer GitHub Repository](https://github.com/Fuadqr/Raman-Analyzer-V1.0/releases/tag/v1.0.0)
 The first step is to prepare the spectral data by downloading both the reference library (containing known spectra) and your unknown spectra (you can test with the validation spectra from GitHub or any spectra of unknown polymers you wish to analyse).
 
 **In Step 1**, the user will be asked to process the reference library and unknown spectra folders one at a time by uploading each folder separately, for each one, the user needs to specify a different output directory. This pre-processing is essential step ensures that baseline correction and smoothing are applied to both datasets.
