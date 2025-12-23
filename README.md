@@ -33,9 +33,6 @@ Noise reduction and signal-to-noise ratio (SNR) enhancement are performed using 
 
 -Polynomial order
 
--This step is essential for improving peak detection and correlation accuracy, particularly for low-intensity or coloured particles.
-
-
 ## 2. Spectral Normalization and Exclusion Ranges
 
 -After pre-processing, spectra are min–max normalized over a user-defined spectral range (typically 800-1800 cm⁻¹, the MPs fingerprint region).
