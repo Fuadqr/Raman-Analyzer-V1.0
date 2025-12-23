@@ -1,7 +1,8 @@
 # Raman-Analyzer-V1.0
 # Code Overview
 
-This open source Python code provides a comprehensive set of functionalities for Microplastics Raman spectroscopy data analysis :
+**Raman Analyzer** is an **open-source Python tool** (with an optional **Windows-based GUI**) designed for **automated, high-throughput analysis of Raman spectroscopy data**, with a particular focus on **microplastic (MP) polymer identification**.  
+The tool integrates **established spectral pre-processing techniques** with a **dual-algorithm matching framework** that combines **peak-based matching** and **full-spectrum correlation analysis**, enabling **robust, reproducible, and dataset-adaptive polymer identification**.
 
 ## 1. Spectral Pre-processing
 
@@ -15,16 +16,18 @@ Four baseline correction methods are implemented, allowing users to select the m
 
 -BaselineRemoval Package by Md Azimul Haque (2022), implementing:
 
-   ModPoly – Modified multi-polynomial fitting 
+   -- ModPoly - Modified multi-polynomial fitting 
    
-   IModPoly – Improved ModPoly 
    
-   ZhangFit – Adaptive iteratively reweighted penalized least squares 
+   -- IModPoly - Improved ModPoly 
+   
+   
+   -- ZhangFit - Adaptive iteratively reweighted penalized least squares 
 
 
 **b. Spectral Smoothing**
 
-Noise reduction and signal-to-noise ratio (SNR) enhancement are performed using the Savitzky–Golay filter (SciPy implementation). Users can define:
+Noise reduction and signal-to-noise ratio (SNR) enhancement are performed using the Savitzky-Golay filter (SciPy implementation). Users can define:
 
 -Smoothing window length (in cm⁻¹)
 
@@ -35,7 +38,7 @@ Noise reduction and signal-to-noise ratio (SNR) enhancement are performed using 
 
 ## 2. Spectral Normalization and Exclusion Ranges
 
--After pre-processing, spectra are min–max normalized over a user-defined spectral range (typically 800–1800 cm⁻¹, the MPs fingerprint region).
+-After pre-processing, spectra are min–max normalized over a user-defined spectral range (typically 800-1800 cm⁻¹, the MPs fingerprint region).
 
 -Optional exclusion ranges can be specified to remove Instrumental artefacts or Fluorescence-related features (e.g. Nile Red interference around 1488 cm⁻¹)
 
@@ -60,7 +63,7 @@ Polymer identification is performed using a combined similarity scores:
 
 -Pearson correlation coefficients are computed across the full spectral range
 
--Correlation values are scaled to a 0–100 Correlation Score (CS)
+-Correlation values are scaled to a 0-100 Correlation Score (CS)
 
 **c. Combined Similarity Score**
 
