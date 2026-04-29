@@ -1,6 +1,0 @@
-cluster_ordinal,n_members,mean_r,tier,folder
-1,8,0.9872,Tier1_Strong,Subclass_01_n8_r0.99
-2,6,0.936,Tier1_Strong,Subclass_02_n6_r0.94
-3,4,0.9971,Tier2_Moderate,Subclass_03_n4_r1.00
-4,4,0.9386,Tier2_Moderate,Subclass_04_n4_r0.94
-5,3,0.9961,Tier2_Moderate,Subclass_05_n3_r1.00
