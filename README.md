@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/RAlogo.PNG" alt="RamanAnalyzer logo" width="850">
+</p>
+
 ## Overview
 
 **RamanAnalyzer** is an open-source Raman spectroscopy analysis workflow designed for **automated microplastic identification**. It combines spectral preprocessing, signal-to-noise ratio assessment, peak-based matching, and full-spectrum correlation to compare unknown Raman spectra against a reference library.
@@ -142,24 +146,6 @@ Step 1 performs:
 5. Export of processed spectra as `.parquet`.
 6. Optional PNG diagnostic plotting.
 
-### Example command
-
-```bash
-python V1.0_2025_Paper/step1_preprocess_png_only_tqdm.py --input path/to/raw_spectra --output path/to/processed_output
-```
-
-### Disable plots
-
-```bash
-python V1.0_2025_Paper/step1_preprocess_png_only_tqdm.py --input path/to/raw_spectra --output path/to/processed_output --no-plots
-```
-
-### Disable progress bars
-
-```bash
-python V1.0_2025_Paper/step1_preprocess_png_only_tqdm.py --input path/to/raw_spectra --output path/to/processed_output --no-tqdm
-```
-
 ### Step 1 outputs
 
 Step 1 produces:
@@ -205,24 +191,6 @@ The default weighting is:
 ```text
 Peak score weight    = 0.40
 Pearson score weight = 0.60
-```
-
-### Example command
-
-```bash
-python V1.0_2025_Paper/step2_match_png_only_threshold_tqdm.py --unknown path/to/unknown_processed_parquet --known path/to/reference_library --output path/to/match_report.xlsx
-```
-
-### Disable plots
-
-```bash
-python V1.0_2025_Paper/step2_match_png_only_threshold_tqdm.py --unknown path/to/unknown_processed_parquet --known path/to/reference_library --output path/to/match_report.xlsx --no-plot
-```
-
-### Disable progress bars
-
-```bash
-python V1.0_2025_Paper/step2_match_png_only_threshold_tqdm.py --unknown path/to/unknown_processed_parquet --known path/to/reference_library --output path/to/match_report.xlsx --no-tqdm
 ```
 
 ### Step 2 outputs
@@ -317,43 +285,9 @@ The reference library may include:
 - open reference spectra
 - polymer classes
 - non-polymer classes
-- tiered reference folders for confidence support
-
+  
 The matching script automatically reads the reference-library folder structure and uses available tier metadata when present.
 
----
-
-## Plotting
-
-RamanAnalyzer saves **PNG plots only**.
-
-
-### Step 1 plots
-
-Step 1 can generate:
-
-- baseline correction plots
-- smoothing plots
-- SNR diagnostic plots
-- SNR distribution plot
-
-### Step 2 plots
-
-Step 2 can generate best-match plots showing:
-
-- unknown and best-reference spectra
-- detected peak positions
-- peak matching tolerance bands
-- match details
-- confidence reasoning
-- similarity metric bars
-
-Best-match plots are automatically sorted into:
-
-```text
-Over_Threshold/
-Below_Threshold/
-```
 ---
 
 ## Tested Environments
@@ -373,8 +307,6 @@ RamanAnalyzer was developed at the **University of Birmingham** as part of resea
 
 This work was supported by the **PlasticUnderground Doctoral Network**, funded by the **European Union’s Horizon Europe research and innovation programme** through the **Marie Skłodowska-Curie Actions Doctoral Networks (MSCA-DN)** scheme.
 
-The views and opinions expressed are those of the author only and do not necessarily reflect those of the European Union or the granting authority.
-
 ---
 
 ## Citation
@@ -386,20 +318,7 @@ A `CITATION.cff` file is included in this repository for citation metadata.
 Suggested citation text:
 
 ```text
-Alqrinawi, F. et al. (2026). RamanAnalyzer: a Raman spectra preprocessing and reference-library matching workflow for microplastic identification.
+Alqrinawi, F. et al. (2026). RamanAnalyzer: an open-source framework for reproducible Raman identification of Microplastics polymers.
 ```
 
----
-
-## License
-
-Please check the `LICENSE` file for reuse conditions.
-
-If no license is included, the code is not automatically open for reuse. For public research software, adding an open-source license such as the MIT License is recommended.
-
----
-
-## Contact
-
-For questions, issues, or suggestions, please use the GitHub Issues section of this repository.
 
