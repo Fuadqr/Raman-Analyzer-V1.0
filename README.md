@@ -40,7 +40,7 @@ Noise reduction and signal-to-noise ratio (SNR) enhancement are performed using 
 
 ## 2. Spectral Normalization and Exclusion Ranges
 
--After pre-processing, spectra are min–max normalized over a user-defined spectral range (typically 800-1800 cm⁻¹, the MPs fingerprint region).
+-After pre-processing, spectra are min–max normalized over a user-defined spectral range (typically 500-3500 cm⁻¹, the MPs fingerprint region).
 
 -Optional exclusion ranges can be specified to remove Instrumental artefacts or Fluorescence-related features (e.g. Nile Red interference around 1488 cm⁻¹)
 
