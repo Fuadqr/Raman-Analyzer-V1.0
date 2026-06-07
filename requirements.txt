@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scipy
+BaselineRemoval
+joblib
+tqdm
+pyarrow
+openpyxl
+xlsxwriter
