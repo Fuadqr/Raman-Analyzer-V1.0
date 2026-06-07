@@ -90,6 +90,10 @@ The final Hit Quality Index (HQI) is computed as a weighted combination of PMS a
 
 ## 6. Graphical User Interface (GUI)
 
+<p align="center">
+  <img src="docs/images/GUI.PNG" alt="RamanAnalyzer GUI" width="850">
+</p>
+
 A Windows-based GUI is provided to make Raman Analyzer accessible to users without programming experience. The GUI supports:
 
 -Parameter configuration
