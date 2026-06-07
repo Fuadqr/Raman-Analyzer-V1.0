@@ -234,7 +234,7 @@ The GUI supports:
 The GUI release can be downloaded from:
 
 ```text
-https://github.com/Fuadqr/Raman-Analyzer-V1.0/releases/tag/v1.0.0
+https://github.com/Fuadqr/Raman-Analyzer-V1.0/releases/tag/V1.0.0
 ```
 
 ---
