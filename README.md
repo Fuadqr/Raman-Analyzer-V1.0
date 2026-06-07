@@ -278,6 +278,11 @@ The peak weight and Pearson weight should sum to 1.0.
 
 ## Reference Library
 
+<p align="center">
+  <img src="docs/images/library_overview_chart.png" alt="Library Overview Chart" width="900">
+</p>
+
+
 The RamanAnalyzer workflow is designed to work with a structured Raman reference library containing polymer and non-polymer spectra.
 
 The reference library may include:
