@@ -1,7 +1,7 @@
 # Raman-Analyzer-V1.0
 
 <p align="center">
-  <img src="docs/images/RAlogo.PNG" alt="RamanAnalyzer logo" width="250">
+  <img src="docs/images/RAlogo.PNG" alt="RamanAnalyzer logo" width="850">
 </p>
 
 # Code Overview
