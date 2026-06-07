@@ -8,8 +8,8 @@
 
 The tool can be used in two ways:
 
-1. **Graphical User Interface (GUI)** — for users who prefer a Windows-based interface.
-2. **Python scripts** — for reproducible batch processing and research workflows.
+1. **Graphical User Interface (GUI)** - for users who prefer a Windows-based interface.
+2. **Python scripts** - for reproducible batch processing and research workflows.
 
 RamanAnalyzer is intended for high-throughput Raman spectral analysis, especially for polymer and microplastic identification, while also supporting non-polymer reference classes where included in the reference library.
 
