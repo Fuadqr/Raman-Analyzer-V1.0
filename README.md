@@ -21,13 +21,13 @@ Four baseline correction methods are implemented, allowing users to select the m
 
 -BaselineRemoval Package by Md Azimul Haque (2022), implementing:
 
-   -- ModPoly - Modified multi-polynomial fitting 
+   - ModPoly - Modified multi-polynomial fitting 
    
    
-   -- IModPoly - Improved ModPoly 
+   - IModPoly - Improved ModPoly 
    
    
-   -- ZhangFit - Adaptive iteratively reweighted penalized least squares 
+   - ZhangFit - Adaptive iteratively reweighted penalized least squares 
 
 
 **b. Spectral Smoothing**
