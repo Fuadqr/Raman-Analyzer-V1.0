@@ -1,6 +1,11 @@
 # Raman-Analyzer-V1.0
+
+<p align="center">
+  <img src="docs/images/RAlogo.PNG" alt="RamanAnalyzer logo" width="850">
+</p>
+
 # Code Overview
-![RAlogo](docs/images/RAlogo.png)
+
 **Raman Analyzer** is an **open-source Python tool** (with an optional **Windows-based GUI**) designed for **automated, high-throughput analysis of Raman spectroscopy data**, with a particular focus on **microplastic (MP) polymer identification**.  
 The tool integrates **established spectral pre-processing techniques** with a **dual-algorithm matching framework** that combines **peak-based matching** and **full-spectrum correlation analysis**, enabling **robust, reproducible, and dataset-adaptive polymer identification**.
 
