@@ -61,8 +61,7 @@ Raman-Analyzer-V1.0/
 │
 ├── V2025/
 ├── V2024/
-│
-└── outputs/
+└── default_library/
 ```
 
 > **Note:** The latest recommended version is the **V1.0** workflow. Older folders are retained for archival and comparison purposes.
