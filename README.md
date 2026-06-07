@@ -4,10 +4,6 @@
   <img src="docs/images/RAlogo.PNG" alt="RamanAnalyzer logo" width="850">
 </p>
 
-<<<<<<< HEAD
-<p align="center">
-  <b>Precision microplastic identification pipeline for Raman spectra preprocessing and reference-library matching</b>
-</p>
 =======
 # Code Overview
 
