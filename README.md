@@ -123,7 +123,7 @@ The RamanAnalyzer workflow has two main steps.
 
 ---
 
-## Step 1 — Raman Spectral Preprocessing
+## Step 1 : Raman Spectral Preprocessing
 
 Step 1 reads raw Raman spectra and applies baseline correction, smoothing, and SNR calculation.
 
@@ -162,7 +162,7 @@ processed_output/
 
 ---
 
-## Step 2 — Raman Reference Matching
+## Step 2 : Raman Reference Matching
 
 Step 2 reads the processed `.parquet` spectra and compares unknown spectra against a known reference library.
 
