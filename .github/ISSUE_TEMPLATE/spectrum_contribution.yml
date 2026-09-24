@@ -70,7 +70,7 @@ body:
     id: contributor
     attributes:
       label: Contributor name and affiliation (for credit)
-      placeholder: J. Doe, University of X
+      placeholder: X, University of Y
     validations:
       required: true
 

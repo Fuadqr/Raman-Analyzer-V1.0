@@ -77,7 +77,7 @@ per file. The following fields are required:
 | `laser_power_mW` | Power at the sample, if known | `30` |
 | `acquisition_time_s` | Accumulation time, if known | `10` |
 | `preprocessing` | Any processing already applied | `none` |
-| `contributor` | Name and affiliation for credit | `J. Doe, University of X` |
+| `contributor` | Name and affiliation for credit | `X, University of Y` |
 | `licence` | Licence under which the spectra are released | `CC-BY 4.0` |
 | `reference` | Publication or DOI, if applicable | `10.1021/xxxxx` |
 | `notes` | Anything else relevant | `pigmented, blue fragment` |
