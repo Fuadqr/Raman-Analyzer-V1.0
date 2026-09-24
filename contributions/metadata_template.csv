@@ -1,0 +1,2 @@
+filename,polymer,identity_verified_by,sample_origin,instrument,laser_wavelength_nm,grating,objective,laser_power_mW,acquisition_time_s,preprocessing,contributor,licence,reference,notes
+PE_HDPE_pristine_001.csv,HDPE,supplier-grade reference material,pristine,Renishaw inVia Qontor,785,1200 l/mm,50x,30,10,none,"X, University of Y",CC-BY 4.0,,example row - delete before submitting

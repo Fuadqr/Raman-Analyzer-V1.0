@@ -1,0 +1,104 @@
+name: Spectrum contribution
+description: Contribute Raman spectra to the reference library
+title: "[Spectra] <polymer class(es)>"
+labels: ["spectra", "contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing spectra. Please read `CONTRIBUTING.md` first.
+        Spectra are added to the library only after preprocessing, SNR screening,
+        and tier assignment.
+
+  - type: input
+    id: polymer
+    attributes:
+      label: Polymer class(es)
+      description: Which polymer or material do the spectra cover?
+      placeholder: HDPE, LDPE
+    validations:
+      required: true
+
+  - type: input
+    id: n_spectra
+    attributes:
+      label: Number of spectra
+      placeholder: "24"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: origin
+    attributes:
+      label: Sample origin
+      options:
+        - Pristine (reference material or supplier-grade)
+        - Laboratory-weathered
+        - Environmental (field-collected)
+        - Mixed (specify in notes)
+    validations:
+      required: true
+
+  - type: input
+    id: instrument
+    attributes:
+      label: Instrument, laser wavelength, and grating
+      placeholder: Renishaw inVia Qontor, 785 nm, 1200 l/mm
+    validations:
+      required: true
+
+  - type: dropdown
+    id: preprocessing
+    attributes:
+      label: Have the spectra already been preprocessed?
+      options:
+        - "No - raw spectra"
+        - "Yes - baseline-corrected"
+        - "Yes - baseline-corrected and smoothed"
+    validations:
+      required: true
+
+  - type: input
+    id: verification
+    attributes:
+      label: How was the polymer identity verified?
+      placeholder: Supplier-grade reference material / FTIR confirmation / Py-GC-MS
+    validations:
+      required: true
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor name and affiliation (for credit)
+      placeholder: J. Doe, University of X
+    validations:
+      required: true
+
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      description: Licence under which the spectra may be redistributed
+      placeholder: CC-BY 4.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Publication or DOI, pigmentation, morphology, or anything else relevant.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Files are two-column (Raman shift in cm-1, intensity) in .csv, .xlsx, or .txt
+          required: true
+        - label: One spectrum per file
+          required: true
+        - label: A metadata.csv is included, following the template in CONTRIBUTING.md
+          required: true
+        - label: I have the right to release these spectra under the stated licence
+          required: true
